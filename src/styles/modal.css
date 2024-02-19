@@ -1,0 +1,279 @@
+.header-modal {
+    position: absolute;
+    width: 800px;
+    padding: 32px, 24px;
+    background-color: var(--gray900);
+    top: -20%;
+    border-radius: 8px;
+}
+
+.header-modal__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 12px;
+}
+
+.modal__container-header,
+.edit-modal__header,
+.delete-modal__header,
+.create-modal__header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-profile {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.div-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*----------------------------Modal Edição----------------------------------------*/
+
+.edit-modal {
+    position: absolute;
+    width: 800px;
+    top: -20%;
+    border-radius: 8px;
+    border: 0;
+}
+
+.edit-modal__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 10px 12px;
+}
+
+.edit-modal__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.edit-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.label-title,
+.label-content {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray100);
+
+}
+
+.modal-edit__title {
+    width: 99%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+.modal-edit__content {
+    width: 99%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+.delete-bttns{
+    display: flex;
+    gap: 10px;
+}
+
+.edit-bttns,
+.create-bttns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*------------------------------------------------create--------------------------------------*/
+
+.create-modal {
+    position: absolute;
+    width: 800px;
+    top: -20%;
+    border-radius: 8px;
+}
+
+.create-modal__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 10px 12px;
+}
+
+.create-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.create-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.input-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.create-post__title {
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+.create-post__content {
+    height: 200px;
+    margin-bottom: 5px;
+    border: 1px solid #d9d9d9;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+.cancel-create__modal,
+.post-bttn {
+    width: 105px;
+    height: 38px;
+}
+
+/*---------------------------------------delete---------------------------------*/
+
+.delete-modal {
+    position: absolute;
+    width: 800px;
+    top: -20%;
+    border-radius: 8px;
+}
+
+.delete-modal__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 10px 12px;
+}
+
+.delete-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.div-description {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.question-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.inform-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray300);
+}
+
+/*-----------------------------logout---------------------------*/
+
+.logout-modal {
+    position: absolute;
+    width: 800px;
+    height: 170px;
+    background-color: transparent;
+    margin-top: 35px;
+}
+
+.logout-div {
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 73%;
+}
+
+.logout-div__img {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logout-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.logout-account {
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.logout-bttn {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray100);
+    opacity: 0.7;
+    background-color: var(--gray700);
+}
+
+.logout-bttn:hover {
+    opacity: 1;
+    background-color: var(--gray600);
+}

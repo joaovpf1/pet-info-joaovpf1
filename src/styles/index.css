@@ -1,0 +1,120 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+}
+
+.info-container {
+    width: 391px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-title {
+    width: 350px;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--gray100);
+}
+
+span {
+    color: var(--brand100);
+}
+
+.info-text {
+    width: 295px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray300);
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.img-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.rigth-cat {
+    margin-right: 100px;
+}
+
+/* --------------------------------LOGIN-------------------------------------- */
+
+.login-container {
+    width: 368px;
+    border: 1px solid var(--gray600);
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 16px 16px;
+}
+
+.login-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.input-div {
+    width: 321px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.input-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.login-input {
+    width: 287px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid var(--gray600);
+    background-color: var(--gray800);
+    padding: 0px 16px;
+}
+
+.signup-div {
+    width: 321px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-spinner {
+    width: 321px;
+    height: 38px;
+    background-color: var(--brand100);
+    border: 0;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+}
+
+.div-spinner__hidden {
+    display: none;
+}

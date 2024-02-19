@@ -1,0 +1,168 @@
+button {
+  border: 0;
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  font-family: "Inter, sans-serif"
+}
+
+.redirect-edit__button,
+.edit-bttn {
+  border: 1px solid var(--gray600);
+  background-color: var(--gray900);
+  color: var(--gray100);
+}
+
+.redirect-edit__button:hover {
+  background-color: var(--gray800);
+}
+
+.close-cancel__button,
+.cancel-delete__modal {
+  background-color: var(--gray600);
+  color: var(--gray400);
+}
+
+.close-cancel__button:hover,
+.cancel-delete__modal:hover {
+  color: var(--gray300);
+}
+
+.confirm__button {
+  background-color: var(--brand100);
+  color: var(--gray900);
+}
+
+.confirm__button:hover {
+  background-color: var(--brand200);
+}
+
+.alert__button,
+.confirm-delete {
+  background-color: var(--alert100);
+  color: var(--gray900);
+}
+
+.alert__button:hover,
+.confirm-delete:hover {
+  background-color: var(--alert200);
+}
+
+.acess-bttn {
+  width: 321px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.log-bttn__hidden {
+  display: none;
+}
+
+.signup-bttn {
+  width: 321px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.signup-bttn__hidden {
+  display: none;
+}
+
+.back-to-login {
+  width: 321px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-bttn {
+  width: 152px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.close-edit__modal,
+.close-create__modal,
+.close-delete__modal {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  color: #868E96;
+  background-color: #E9ECEF;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cancel-edit__modal {
+  background-color: var(--gray600);
+  color: var(--gray400);
+}
+
+.cancel-edit__modal:hover {
+  color: var(--gray300);
+}
+
+.confirm-edit__bttn {
+  background-color: var(--brand100);
+  color: var(--gray900);
+}
+
+.confirm-edit__bttn:hover {
+  background-color: var(--brand200);
+}
+
+.edit-bttn {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.edit-bttn:hover {
+  background-color: var(--gray700);
+}
+
+.delete-bttn {
+  background-color: var(--gray700);
+  border: 1px solid var(--gray700);
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray400);
+}
+
+.delete-bttn:hover {
+  background-color: var(--gray800);
+  color: var(--gray100);
+}
+
+.close-header__modal,
+.close-edit__modal {
+  width: 38px;
+  height: 32px;
+  background-color: #E9ECEF;
+
+  color: #868E96;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cancel-delete__modal {
+  width: 97px;
+  height: 38px;
+}
+
+.confirm-delete {
+  width: 189px;
+  height: 38px;
+}
+
+.profile-img {
+  cursor: pointer;
+}

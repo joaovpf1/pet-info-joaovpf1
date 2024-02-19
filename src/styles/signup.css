@@ -1,0 +1,123 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.signup-container {
+    width: 368px;
+    border: 1px solid var(--gray600);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 44px 24px;
+}
+
+.signup-head {
+    width: 321px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.signup-login {
+    width: 133px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-div {
+    width: 321px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.input-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.signup-input {
+    width: 287px;
+    height: 44px;
+    padding: 0px 16px;
+
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+    background-color: var(--gray800);
+}
+
+.div-spinner {
+    width: 321px;
+    height: 38px;
+    background-color: var(--brand100);
+    border: 0;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+}
+
+.div-spinner__hidden {
+    display: none;
+}
+
+
+/* -------------------------text-container------------------- */
+
+.text-container {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--gray100);
+}
+
+.container-subtitle {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--brand100);
+}
+
+.container-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray300);
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.img-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
