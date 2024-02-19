@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../src/styles/reset.css">
+    <link rel="stylesheet" href="../../src/styles/globalStyles.css">
+    <link rel="stylesheet" href="../../src/styles/buttons.css">
+    <link rel="stylesheet" href="../../src/styles/dashboard.css">
+    <link rel="stylesheet" href="../../src/styles/modal.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Petinfo</h1>
+        <div class="header__div">
+            <button class="header-bttn  confirm__button">Criar publicação</button>
+            <img class="profile-img main-img" src="../../src/assets/testprofile.svg" alt="Foto de perfil">
+        </div>
+    </header>
+
+    <dialog class="logout-modal">
+        <div class="logout-div">
+            <div class="logout-div__img">
+                <img class="profile-img logout-img main-img" src="../../src/assets/testprofile.svg"
+                    alt="Foto de perfil">
+            </div>
+            <div class="logout-option">
+                <p class="logout-account">@joaovictor</p>
+                <button class="logout-bttn"><img class="logout-icon" src="../../src/assets/sign-out-alt.svg"
+                        alt="botão logout"> Sair da conta</button>
+            </div>
+        </div>
+    </dialog>
+
+    <main>
+        <div class="div-feed__title">
+            <div class="subdiv-title">
+                <h2 class="feed-title">Feed</h2>
+            </div>
+        </div>
+
+        <ul class="list-container">
+            <!-- <li class="list-item">
+                <div class="item-header">
+                    <div class="div-profile">
+                        <img class="post-img" src="../../src/assets/testprofile.svg" alt="">
+                        <h2 class="post-name">João Victor</h2>
+                        <p class="post-date">|</p>
+                        <p class="post-date">Julho de 2023</p>
+                    </div>
+                    <div class="div-bttns">
+                        <button class="edit-bttn">Editar</button>
+                        <button class="delete-bttn">Excluir</button>
+                    </div>
+                </div>
+
+                <div class="div-text">
+                    <h2 class="post-title">Outubro Rosa: Detalhes sobre a importância da prevenção do câncer de mama em cadelas e gatas</h2>
+                    <p class="post-text">Assim como em humanos, cadelas e gatas também podem desenvolver câncer de mama. Ainda hoje, para ambas as espécies, o câncer de mama tem maior...</p>
+                    <button class="modal-acess">Acessar publicação</button>
+                </div>
+            </li> -->
+        </ul>
+
+    </main>
+
+    <dialog class="create-modal">
+        <div class="create-modal__container">
+            <div class="create-modal__header">
+                <h2 class="create-title">Criando novo post</h2>
+                <button class="close-create__modal">X</button>
+            </div>
+
+            <div class="create-inputs">
+                <h3 class="input-title">Título do post</h3>
+                <input class="create-post__title" type="text" name="title">
+                <h3 class="input-title">Conteúdo do post</h3>
+                <!-- <input class="" type="text" name="content"> -->
+                <textarea class="create-post__content" name="content" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="create-bttns">
+                <button class="cancel-create__modal  close-cancel__button">Cancelar</button>
+                <button class="post-bttn confirm__button">Publicar</button>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog class="header-modal">
+        <div class="header-modal__container">
+            <!-- <div class="modal__container-header">
+                <div class="div-profile">
+                    <img class="post-img" src="../../src/assets/testprofile.svg" alt="Foto de perfil">
+                    <h2 class="post-name">João Victor</h2>
+                    <p class="post-date">|</p>
+                    <p class="post-date">Julho de 2023</p>
+                </div>
+                    <button class="close-header__modal">x</button>
+            </div>
+    
+            <div class="div-text">
+                <h2 class="post-title">Outubro Rosa: Detalhes sobre a importância da prevenção do câncer de mama em cadelas e gatas</h2>
+                <p class="post-text">Assim como em humanos, cadelas e gatas também podem desenvolver câncer de mama. Ainda hoje, para ambas as espécies, o câncer de mama tem maior...</p>
+            </div> -->
+        </div>
+    </dialog>
+
+    <dialog class="edit-modal">
+        <div class="edit-modal__container">
+            <!-- <div class="edit-modal__header">
+                <h2 class="edit-title">Edição</h2>
+                <button class="close-edit__modal">x</button>
+            </div>
+    
+            <div class="edit-inputs">
+                <h3 class="label-title">Título do post</h3>
+                <input class="modal-edit__title" type="text" >
+                <h3 class="label-content">Conteúdo do post</h3>
+                <input class="modal-edit__content" type="text" >
+            </div>
+            <div class="edit-bttns">
+                <button class="cancel-edit__modal">Cancelar</button>
+                <button class="confirm-edit__bttn">Salva Alterações</button>
+            </div> -->
+        </div>
+    </dialog>
+
+
+    <dialog class="delete-modal">
+        <div class="delete-modal__container">
+            <!-- <div class="delete-modal__header">
+                <h2 class="delete-title">Confirmação de exclusão</h2>
+                <button class="close-delete__modal">x</button>
+            </div>
+    
+            <div class="div-description">
+                <h2 class="question-title">Tem certeza que deseja excluir este post?</h2>
+                <p class="inform-text">Essa ação não poderá ser desfeita, então pedimos que tenha cautela antes de concluir</p>
+            </div>
+            <div class="delete-bttns">
+                <button class="cancel-delete__modal">Cancelar</button>
+                <button class="confirm-delete">Sim, excluir este post</button>
+            </div> -->
+        </div>
+    </dialog>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="../../src/scripts/dashboard.js"></script>
+    <script type="module" src="../../src/scripts/modal.js"></script>
+    <script type="module" src="../../src/scripts/render.js"></script>
+</body>
+</html>

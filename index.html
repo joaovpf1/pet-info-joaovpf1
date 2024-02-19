@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./src/styles/spinner.css">
+    <title>PetInfo</title>
+</head>
+
+<body class="main-container">
+    <section class="info-container">
+        <h1 class="info-title">Petinfo</h1>
+        <h1 class="info-title"><span>Amor</span> e <span>carinho</span> por meio do conhecimento</h1>
+        <p class="info-text">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+        <div class="img-container">
+            <div class="img-div">
+                <img src="./src/assets/cat2.svg" alt="Cat">
+                <img src="./src/assets/dog1.svg" alt="Dog">
+                <img src="./src/assets/dog2.svg" alt="Dog">
+            </div>
+            <div class="rigth-cat">
+                <img src="./src/assets/cat1.svg" alt="Cat">
+            </div>
+        </div>
+    </section>
+
+    <section class="login-container">
+        <h2 class="login-title">Login</h2>
+        <div class="input-div">
+            <p class="input-title">Email</p>
+            <input class="login-input email-input" type="email" placeholder="Digite o e-mail aqui...">
+        </div>
+        <div class="input-div">
+            <p class="input-title">Senha</p>
+            <input class="login-input pass-input" type="password" placeholder="Digite sua senha aqui...">
+        </div>
+
+        <div class="div-spinner__hidden">
+            <div class="spinner-hidden"></div>
+        </div>
+        <button class="acess-bttn log-bttn confirm__button">Acessar</button>
+
+        <div class="signup-div">
+            <h3 class="signup-title">Ainda não possui conta?</h3>
+            <p class="signup-text">Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+        </div>
+
+        <button class="acess-bttn to-signup redirect-edit__button">Cadastrar</button>
+    </section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="./src/scripts/index.js"></script>
+</body>
+</html>

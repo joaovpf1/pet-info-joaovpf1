@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./../../src/styles/reset.css">
+    <link rel="stylesheet" href="./../../src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./../../src/styles/buttons.css">
+    <link rel="stylesheet" href="./../../src/styles/signup.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../../src/styles/spinner.css">
+</head>
+
+<body class="main-container">
+    <section class="signup-container">
+        <div class="signup-head">
+            <h2 class="signup-title">Cadastro</h2>
+            <button class="signup-login  to-login redirect-edit__button">Voltar para o login</button>
+        </div>
+
+        <div class="signup-div">
+            <p class="input-title">Usuário</p>
+            <input class="signup-input signup-user" type="text" placeholder="Digite seu usuário aqui...">
+        </div>
+
+        <div class="signup-div">
+            <p class="input-title">Email</p>
+            <input class="signup-input signup-email" type="email" placeholder="Digite seu email aqui...">
+        </div>
+
+        <div class="signup-div">
+            <p class="input-title">Link da foto do perfil</p>
+            <input class="signup-input signup-img" type="text" placeholder="Digite o link aqui...">
+        </div>
+
+        <div class="signup-div">
+            <p class="input-title">Senha</p>
+            <input class="signup-input signup-pass" type="password" placeholder="Digite sua senha aqui...">
+        </div>
+
+        <div class="div-spinner__hidden">
+            <div class="spinner-hidden"></div>
+        </div>
+
+        <button class="signup-bttn confirm__button">Cadastrar</button>
+        <button class="back-to-login to-login redirect-edit__button">Voltar para o login</button>
+    </section>
+
+    <section class="text-container">
+        <h2 class="container-title">Petinfo</h2>
+        <h2 class="container-subtitle">Ooooooba!</h2>
+        <p class="container-text">Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+
+        <div class="img-container">
+            <div class="left-cat">
+                <img src="../../src/assets/cat4.svg" alt="Cat">
+            </div>
+            <div class="img-div">
+                <img src="../../src/assets/cat6svg.svg" alt="Cat">
+                <img src="../../src/assets/dog4.svg" alt="Dog">
+                <img src="../../src/assets/cat7.svg" alt="Dog">
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="../../src/scripts/signup.js"></script>
+
+</body>
+
+</html>
